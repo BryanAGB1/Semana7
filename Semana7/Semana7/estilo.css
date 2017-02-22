@@ -1,0 +1,26 @@
+﻿body {
+   width:60%;
+   margin:auto;
+    
+}
+
+
+#valores{
+    background:white;
+    color:Black;
+    font-family:Arial Rounded MT;
+    width:312px;
+    height:80px;
+    border:groove;
+    font-size:20px;
+    text-align:right;
+}
+
+
+#Ans, #C, #Borrar, #Dividir, #Num7, #Num9, #Num8, #Multiplicar, #Num6, #Num5, #Num4, #Restar, #Num1, #Num2, #Num3, #Sumar, #SuRe, #Num0, #Punto, #Resultado {
+    width:75px;
+    height:50px;
+    border:groove;
+    font-size:20px;
+    text-align:center;
+}
