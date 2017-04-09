@@ -11,12 +11,12 @@
             <div align="center" class="row">
                 <strong>
 
-                    <input id="valores" runat="server" type="text" />
+                    <input id="valores" name="valores" runat="server" type="text" onkeypress="return solonumeros(event)" />
 
                 </strong>
                 <br>
                 <button id="Ans" type="button" class="btn btn-default">Ans</button>
-                <button id="C" type="button" class="btn btn-default" value="C" onclick="eliminar()" onserverclick="C" >C</button>
+                <button id="C" type="button" class="btn btn-default" value="C" onclick="eliminar()" onserverclick="C">C</button>
                 <button id="Borrar" type="button" class="btn btn-default" value="Borrar" onclick="eliminar_todo()">Borrar</button>
                 <button id="Dividir" type="button" class="btn btn-warning" value="/" onclick="comprobar(value)">/</button>
                 <br>
